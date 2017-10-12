@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController');
+
+Route::get('/scrabble', 'ScrabbleController@index');
+Route::get('/scrabble/score-word', 'ScrabbleController@scoreWord');
