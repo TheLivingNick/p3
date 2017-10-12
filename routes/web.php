@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', 'WelcomeController');
-
-Route::get('/scrabble', 'ScrabbleController@index');
-Route::get('/scrabble/score-word', 'ScrabbleController@scoreWord');
+Route::get('/', 'ScrabbleController@index');
+Route::get('/score-word', 'ScrabbleController@scoreWord');

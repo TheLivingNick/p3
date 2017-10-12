@@ -8,7 +8,7 @@ class ScrabbleController extends Controller
 {
   public function index()
   {
-    return 'Show form to get word from user...';
+    return view('scrabble');
   }
 
   public function scoreWord()
