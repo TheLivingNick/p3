@@ -13,3 +13,10 @@
 
 Route::get('/', 'ScrabbleController@index');
 Route::get('/score-word', 'ScrabbleController@scoreWord');
+
+Route::get('/env', function () {
+    dump(config('app.name'));
+    dump(config('app.env'));
+    dump(config('app.debug'));
+    dump(config('app.url'));
+});
