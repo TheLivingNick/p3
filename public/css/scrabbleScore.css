@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body {
+  font-family: Arial, sans-serif;
+  width: 50%;
+  padding-top: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+h1, h3 {
+  padding: 10px 0px 10px 0px;
+  color: #283f4d;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0px 0px 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.monospace {
+  font-family: Courier, monospace;
+}
+
+#buttonSubmit {
+  display: block;
+  background-color: white;
+  color: #4471ba;
+  border: 2px solid #4471ba;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#buttonSubmit:hover {
+  background-color: #4471ba;
+  color: white;
+}
+
+#buttonSubmit:active {
+  background-color: #21385e;
+}
+
+.haveResult {
+  background-color: #98ef8f;
+  color: #60ad58;
+  border: 2px solid #60ad58;
+  font-size: 30px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.badResult {
+  background-color: #f99d9d;
+  color: #bc3e3e;
+  border: 2px solid #bc3e3e;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.noResult {
+  background-color: #adccff;
+  color: #7795c6;
+  border: 2px solid #7795c6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.tilePic {
+  height: 52px;
+  width: 50px;
+}

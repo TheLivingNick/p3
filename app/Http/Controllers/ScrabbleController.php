@@ -8,12 +8,9 @@ class ScrabbleController extends Controller
 {
   public function index()
   {
-    return view('scrabble');
-  }
+    $letterValuesJSON = file_get_contents('../database/letterValues.json');
+    $letterValues = json_decode($letterValuesJSON, true);
 
-  public function scoreWord()
-  {
-    return 'At this step we should score the entered word...';
-    # redirect ...
+    return view('scrabble.index');
   }
 }
