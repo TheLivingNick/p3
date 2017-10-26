@@ -32,6 +32,10 @@
   </form>
 
   <div class='{{ (count($errors) > 0) ? 'badResult' : $resultType }}'>
-    <p>The word is worth {{ $wordValue }} points</p>
+    @if (count($errors) > 0)
+      <p>There is an error with the entry. Please fix and re-submit.</p>
+    @else
+      <p>The word is worth {{ $wordValue }} points</p>
+    @endif
   </div>
 @endsection
