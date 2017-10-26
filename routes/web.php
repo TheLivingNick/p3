@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'ScrabbleController@index');
-Route::get('/score-word', 'ScrabbleController@scoreWord');
+/* Route::get('/score-word', 'ScrabbleController@scoreWord');
 
 Route::get('/env', function () {
     dump(config('app.name'));
@@ -20,3 +20,4 @@ Route::get('/env', function () {
     dump(config('app.debug'));
     dump(config('app.url'));
 });
+*/
