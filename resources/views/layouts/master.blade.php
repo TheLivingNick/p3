@@ -13,9 +13,9 @@
   <h1>Scrabble Score Calculator</h1>
   <h3>Want to find the value of a word? Enter it below, set the modifiers, and hit the button to find out!</h3>
 
-	<section>
+	<div>
 		@yield('formAndResult')
-	</section>
+	</div>
 
 </body>
 </html>
