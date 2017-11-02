@@ -8,6 +8,16 @@ body {
   text-align: center;
 }
 
+form {
+  background-color: #c4daff;
+  color: #7795c6;
+  border: 2px solid #7795c6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 h1, h3 {
   padding: 10px 0px 10px 0px;
   color: #283f4d;
@@ -16,7 +26,7 @@ h1, h3 {
 p {
   text-align: center;
   font-weight: bold;
-  margin: 15px 0px 0px 0px;
+  margin: 10px 5px;
 }
 
 ul {
@@ -30,7 +40,7 @@ ul {
 
 #buttonSubmit {
   display: block;
-  background-color: white;
+  background-color: #adccff;
   color: #4471ba;
   border: 2px solid #4471ba;
   border-radius: 8px;
@@ -50,15 +60,25 @@ ul {
   background-color: #21385e;
 }
 
+.errorList {
+  color: #bc3e3e;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 5px auto;
+  width: 50%;
+  font-size: .9em;
+}
+
 .haveResult {
   background-color: #98ef8f;
   color: #60ad58;
   border: 2px solid #60ad58;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .badResult {
@@ -68,17 +88,17 @@ ul {
   border-radius: 8px;
   padding: 10px 20px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .noResult {
-  background-color: #adccff;
+  background-color: #c4daff;
   color: #7795c6;
   border: 2px solid #7795c6;
   border-radius: 8px;
   padding: 10px 20px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .tilePic {

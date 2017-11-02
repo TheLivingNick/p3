@@ -103,6 +103,12 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'userWord' => [
+          'required' => 'Word must be entered',
+          'alpha' => 'Word must contain only letters',
+          'min' => 'Word must be at least :min characters long',
+          'max' => 'Word cannot be longer than :max characters',
+        ],
     ],
 
     /*
