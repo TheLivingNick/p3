@@ -4,7 +4,8 @@
   <form method="get" action='/'>
 
     <label for='userWord'>Enter word here: </label>
-    <input type='text' class='monospace' name='userWord' id='userWord' size='18' maxlength='20' value='{{ (count($errors) > 0) ? old('userWord') : $userWord }}'> <!-- left maxLength as 20 so the mexLength:15 validation can be tested -->
+    <input type='text' class='monospace' name='userWord' id='userWord' size='18'
+      maxlength='20' value='{{ (count($errors) > 0) ? old('userWord') : $userWord }}'> <!-- left maxLength as 20 so the mexLength:15 validation can be tested -->
     @if($errors->get('userWord'))
       <ul class="errorList">
           @foreach($errors->get('userWord') as $error)
@@ -34,7 +35,8 @@
       <p>There is an error with the entry. Please fix and re-submit.</p>
     @elseif ($resultType == 'haveResult')
       <p>
-      @foreach($wordArray as $currentLetter)<img class="tilePic" src="/images/letter-{{ $currentLetter }}.png" alt="{{ $currentLetter }}">@endforeach <!-- whitespace inserted when on multiple lines -->
+      @foreach($wordArray as $currentLetter)<img class="tilePic"
+        src="/images/letter-{{ $currentLetter }}.png" alt="{{ $currentLetter }}">@endforeach <!-- whitespace inserted when on multiple lines -->
       <br>is worth {{ $wordValue }} points</p>
     @else
       <p>This is where your score will display!</p>
