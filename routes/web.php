@@ -21,3 +21,5 @@ Route::get('/env', function () {
     dump(config('app.url'));
 });
 */
+
+Route::get('/example', 'ScrabbleController@example');
